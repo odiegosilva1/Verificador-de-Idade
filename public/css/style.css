@@ -1,6 +1,6 @@
 body {
     background-color: rgb(48, 145, 145);
-    font: normal 15pt Arial; 
+    font: normal 15pt Arial;
 }
 
 header {
@@ -19,7 +19,7 @@ section {
 
 footer {
     color: rgb(54, 117, 96);
-    
+
     text-align: center;
     font-style: italic;
 }
@@ -28,4 +28,18 @@ footer {
     height: 250px;
     width: 250px;
     border-radius: 50%;
+}
+
+#btn-main {
+   
+    color: rgb(28, 29, 29);
+    background-color: rgb(12, 233, 203);
+    font-size: 1rem;
+    border-radius: 10%;
+}
+
+#btn-main:hover {
+    background-color: rgb(45, 170, 128);
+    box-shadow: 3px 3px 10px #15161696;
+    
 }
