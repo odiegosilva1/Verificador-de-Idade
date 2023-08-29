@@ -29,13 +29,18 @@ function verificar() {
         } else if (fsex[1].checked) {
             gênero = 'Mulher'
             if (idade >= 0 && idade < 10) {
-                //Criança
+                 //Criança
+                img.setAttribute('src', './assets/bb-menina.jpg') 
             } else if (idade >= 10 && idade < 21) {
                 //Jovem
+                img.setAttribute('src', './assets/m-jovem.jpg')
+
             } else if (idade < 50) {
                 //Adulto
+                img.setAttribute('src', './assets/m-adulta.jpg')
             } else {
                 //Idoso
+                img.setAttribute('src', './assets/m-idosa.jpg')
             }
         }
         res.style.textAlign = 'center'
